@@ -344,6 +344,43 @@ hr {
   width: 100%;
   left: 0; }
 
-.header {
+#header {
   background: url("../img/heroBackground.jpg") no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  height: 800px;
+  color: white;
+  text-align: center;
+  overflow: hidden; }
+
+img {
+  max-width: 500px;
+  width: 100%; }
+
+article {
+  width: 60%;
+  margin: 0 auto; }
+
+h1 {
+  color: white;
+  margin-bottom: 10px; }
+
+.main-nav {
+  display: flex;
+  margin-top: 20px;
+  padding: 0; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    color: white;
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase; }
+
+a.download {
+  background: white;
+  color: #00adff;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
