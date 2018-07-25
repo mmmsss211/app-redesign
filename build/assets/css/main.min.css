@@ -224,7 +224,8 @@ input[type="button"] {
   border-radius: 4px;
   cursor: pointer;
   box-sizing: border-box;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  box-shadow: 0 20px 12px -15px rgba(0, 0, 0, 0.2); }
   .button:hover, .button:active, .button:focus,
   button:hover,
   button:active,
@@ -363,6 +364,30 @@ hr {
 
 .phone {
   border-top: 3px solid #00AEFF; }
+
+#discount {
+  margin-top: 60px; }
+
+.discountLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.offer {
+  width: 40%;
+  margin: 0 auto; }
+
+.offer .button {
+  background: #08b1fa;
+  background: linear-gradient(90deg, #08b1fa 0%, #17dbed 46%, #13f187 100%);
+  color: white;
+  padding: 20px 80px;
+  font-size: 17px; }
+
+#download {
+  background: #5825ec;
+  padding: 100px 0;
+  margin-top: -110px; }
 
 .flex-video {
   height: 0;
