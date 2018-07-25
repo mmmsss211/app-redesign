@@ -280,7 +280,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .huge, h1 {
   font-size: 68px;
-  line-height: 1.05; }
+  line-height: 1.05;
+  text-transform: uppercase;
+  font-weight: 900; }
   @media only screen and (max-width: 680px) {
     .huge, h1 {
       font-size: 44px; } }
@@ -385,9 +387,37 @@ hr {
   font-size: 17px; }
 
 #download {
-  background: #5825ec;
+  color: white;
+  text-align: center;
+  background: url("../img/downloadBackground.jpg") no-repeat;
   padding: 100px 0;
   margin-top: -110px; }
+  #download h2 {
+    color: white;
+    margin: 0;
+    font-size: 68px;
+    line-height: 1.05;
+    text-transform: uppercase;
+    font-weight: 900; }
+  #download p {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    font-weight: 900; }
+  #download .button {
+    position: relative;
+    width: 240px;
+    margin: 0 15px;
+    padding-left: 90px; }
+  #download .apple:before, #download .google:before {
+    position: absolute;
+    display: block;
+    left: 60px;
+    top: 20px; }
+  #download .apple:before {
+    content: url("../img/appleicon.png"); }
+  #download .google:before {
+    content: url("../img/playicon.png"); }
 
 .flex-video {
   height: 0;
