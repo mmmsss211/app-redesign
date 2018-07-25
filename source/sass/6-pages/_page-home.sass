@@ -1,14 +1,14 @@
 #header 
   background: url("../img/heroBackground.jpg") no-repeat
   background-size: cover
-  height: 800px
+  height: 700px
   color: white
   text-align: center
   overflow: hidden
-
-img 
-  max-width: 500px
-  width: 100%
+ 
+  img 
+    max-width: 500px
+    width: 100% 
 
 article 
   width: 60%
@@ -39,3 +39,17 @@ a.download
   background: white
   color: $ocean
   box-shadow: 0 12px 10px -10px rgba(0,0,0,.2)
+
+#brands ul 
+  padding: 20px 0
+  margin: 0
+  background: white
+  display: grid
+  grid-template-columns: repeat(6, auto)
+  @media only screen and (max-width: 550px)
+    grid-template-columns: repeat(3, auto)
+
+  li 
+    list-style: none 
+  li img 
+    width: 100%
